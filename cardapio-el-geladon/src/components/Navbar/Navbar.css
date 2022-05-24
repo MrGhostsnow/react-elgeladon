@@ -83,3 +83,9 @@
       font-size: 1.5em;
     }
   }
+
+  .Header__link{
+    color: black;
+    margin-bottom: 2.8rem;
+  }
+  

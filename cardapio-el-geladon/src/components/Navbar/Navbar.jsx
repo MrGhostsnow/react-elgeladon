@@ -7,13 +7,15 @@ function Navbar() {
     <div className="Home__header Header">
       <div className="row">
         <div className="Header__logo Logo">
-          <img
-            src={logo}
-            width="70px"
-            alt="Logo El Geladon"
-            className="Logo__icone"
-          />
-          <span className="Logo__titulo">El Geladon</span>
+          <a className="Header__link" href="/">
+            <img
+              src={logo}
+              width="70px"
+              alt="Logo El Geladon"
+              className="Logo__icone"
+            />
+            <span className="Logo__titulo">El Geladon</span>
+          </a>
         </div>
         <div className="Header__opcoes Opcoes">
           <div className="Opcoes__sacola Sacola">
