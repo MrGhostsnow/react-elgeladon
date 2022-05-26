@@ -22,9 +22,10 @@
   
   .Logo__titulo {
     position: absolute;
-    left: 55px;
-    font-weight: 700;
+    left: 65px;
+    font-weight: 600;
     font-size: 2.5em;
+    margin-top: 0.5rem;
   }
   
   .Logo__icone {
